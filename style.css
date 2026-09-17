@@ -1,0 +1,1087 @@
+/* ========== ОБЩЕЕ ========== */
+.MY-SUMMER-WHITE {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* ========== HOME ========== */
+.HOME {
+  position: relative;
+  width: 100%;
+  min-height: 900px;
+  background-image: url(./img/logo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.HOME .lines,
+.HOME .div,
+.HOME .intersect {
+  display: none;
+}
+
+.HOME .frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 180px;
+}
+
+.HOME .group {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+.HOME .text-wrapper {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--yellow);
+  font-size: 16px;
+  margin: 0;
+}
+
+.HOME .text-wrapper-2 {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  color: #000;
+  margin: 0;
+}
+
+.HOME .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 30px 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  text-align: center;
+  max-width: 505px;
+  width: 100%;
+}
+
+.HOME .text-wrapper-3 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--yellow);
+  font-size: 52px;
+  margin: 0;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.HOME .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.HOME .text-wrapper-4 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--yellow);
+  font-size: 32px;
+  margin: 0;
+}
+
+.HOME .i-am-a-UI-UX {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* ========== ОБЩАЯ СЕКЦИЯ .div-2 ========== */
+.div-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 80px 40px;
+  background-color: #ffffff;
+}
+
+.div-2 .group-wrapper {
+  flex: 1 1 480px;
+  max-width: 580px;
+  min-width: 280px;
+}
+
+.div-2 .group-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div-2 .group-3 {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.div-2 .text-wrapper-5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+.div-2 .vector {
+  width: 72px;
+  height: 2px;
+}
+
+.div-2 .text-wrapper-6 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--yellow);
+  font-size: 32px;
+  margin: 0;
+}
+
+.div-2 .p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.div-2 .text-wrapper-7 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 40px;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.skills-list .ellipse,
+.skills-list .ellipse-2 {
+  flex: 0 0 10px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.div-2 .photo {
+  flex: 0 1 338px;
+  max-width: 100%;
+  width: 338px;
+  height: 428px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* ========== ПОРТФОЛИО (практика) ========== */
+#portfolio {
+  align-items: center;
+}
+
+#portfolio .frame-wrapper {
+  flex: 1 1 480px;
+  max-width: 520px;
+  min-width: 280px;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+#portfolio .frame-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+#portfolio .text-wrapper-13 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--yellow);
+  font-size: 32px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+#portfolio .figma {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#portfolio .button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 40px;
+  background-color: rgba(255, 183, 0, 0.8);
+  border-radius: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin: 0;
+  align-self: flex-start;
+  transition: background-color 0.2s;
+  color: #000;
+  text-decoration: none;
+}
+
+#portfolio .button:hover {
+  background-color: rgba(255, 183, 0, 1);
+}
+
+#portfolio .vector-2 {
+  width: 16px;
+  height: 9px;
+}
+
+#portfolio .photo-2 {
+  flex: 0 1 410px;
+  max-width: 100%;
+  width: 410px;
+  height: 428px;
+  object-fit: cover;
+  border-radius: 20px;
+  order: 2;
+}
+
+/* ========== PHOTOS (галерея) ========== */
+.PHOTOS {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: #ffffff;
+}
+
+.PHOTOS .div-wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.PHOTOS .group-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.PHOTOS .group-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.PHOTOS .text-wrapper-15 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.PHOTOS .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.PHOTOS .frame-6 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.PHOTOS .text-wrapper-16 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0;
+  background: transparent;
+  color: #000;
+}
+
+.PHOTOS .group-11 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.PHOTOS .group-11 img {
+  width: 100%;
+  height: 274px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.PHOTOS .group-11 img:nth-child(6) {
+  grid-column: span 2;
+}
+
+.PHOTOS .figma-afterskin-sg {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ========== PHOTOS-FIELD ========== */
+.PHOTOS-FIELD {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: #ffffff;
+}
+
+.PHOTOS-FIELD .frame-11 {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "title  title"
+    "text   photos";
+  gap: 60px 80px;
+  align-items: center;
+}
+
+.PHOTOS-FIELD .frame-12 {
+  grid-area: title;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-self: center;
+}
+
+.PHOTOS-FIELD .text-wrapper-17 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
+
+.PHOTOS-FIELD .frame-13 {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 497px;
+  justify-self: start;
+}
+
+.PHOTOS-FIELD .text-wrapper-18 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.PHOTOS-FIELD .text-wrapper-19 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--yellow);
+  font-size: 32px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.PHOTOS-FIELD .group-12 {
+  grid-area: photos;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-self: end;
+}
+
+.PHOTOS-FIELD .group-12 .photo-3,
+.PHOTOS-FIELD .group-12 .photo-4 {
+  width: 260px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.PHOTOS-FIELD .group-12 .photo-4 {
+  margin-top: 60px;
+}
+
+/* ========== BREST ========== */
+.BREST {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.BREST .home-page {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-image: url(./img/Brest\ 0.JPG);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.BREST .text-wrapper-23 {
+  font-family: "Irish Grover", cursive;
+  font-size: 96px;
+  color: #ffffff;
+  -webkit-text-stroke: 0.5px #000;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 2.88px;
+  line-height: 1;
+}
+
+.BREST .text-wrapper-24 {
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+  font-family: "Irish Grover", cursive;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.BREST .text-wrapper-20,
+.BREST .text-wrapper-21,
+.BREST .text-wrapper-22 {
+  position: absolute;
+  bottom: 60px;
+  font-family: "Island Moments", cursive;
+  font-size: 48px;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #ffffff;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.BREST .text-wrapper-20 { left: 55%; }
+.BREST .text-wrapper-21 { left: 72%; }
+.BREST .text-wrapper-22 { left: 89%; }
+
+.BREST .description {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  background-color: #ffffff;
+  flex: 0 0 auto;
+}
+
+.BREST .frame-14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.BREST .frame-14 .frame-15 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.BREST .frame-14 .frame-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+
+.BREST .text-wrapper-25 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.BREST .frame-16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.BREST .frame-17 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  min-height: 420px;
+  padding-bottom: 40px;
+}
+
+.BREST .frame-18,
+.BREST .frame-19,
+.BREST .frame-20,
+.BREST .frame-21,
+.BREST .frame-22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.BREST .frame-18 { margin-top: 0; }
+.BREST .frame-19 { margin-top: 70px; }
+.BREST .frame-20 { margin-top: 20px; }
+.BREST .frame-21 { margin-top: 80px; }
+.BREST .frame-22 { margin-top: 0; }
+
+.BREST .photo-6 {
+  width: 183px;
+  height: 288px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.BREST .text-wrapper-26 {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 64px;
+  color: #000;
+  line-height: 1;
+}
+
+.BREST .element-XVIII {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 1030px;
+}
+
+.BREST .photo-5 {
+  position: static;
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  display: block;
+  flex: 0 0 auto;
+}
+
+/* ========== MOGILEV ========== */
+.MOGILEV {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.MOGILEV .frame-14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.MOGILEV .text-wrapper-25 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.MOGILEV .frame-23 {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.MOGILEV .group-13 {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  flex: 0 1 auto;
+  order: 1;
+}
+
+.MOGILEV .group-13 .photo-3,
+.MOGILEV .group-13 .photo-4 {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.MOGILEV .group-13 .photo-4 {
+  margin-top: 60px;
+}
+
+.MOGILEV .frame-24 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 340px;
+  max-width: 497px;
+  order: 2;
+}
+
+.MOGILEV .text-wrapper-13 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--yellow);
+  font-size: 32px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.MOGILEV .text-wrapper-27 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ========== FOOTER ========== */
+.FOOTER {
+  width: 100%;
+  height: 100px;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FOOTER-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.FOOTER .group-14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FOOTER .menu,
+.FOOTER .text-wrapper-34 {
+  display: none;
+}
+
+.FOOTER .text-wrapper-33 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 26px;
+  color: #000;
+  margin: 0;
+}
+
+/* =================================================================
+   АДАПТИВ
+   ================================================================= */
+
+/* ========== Планшеты и небольшие ноутбуки (≤ 900px) ========== */
+@media (max-width: 900px) {
+
+  /* ---------- HOME ---------- */
+  /* Карточка с MY SUMMER — компактная, не растягивается */
+  .HOME {
+    min-height: 500px;
+    padding: 16px 12px;
+  }
+
+  .HOME .frame {
+    padding-top: 40px;
+  }
+
+  .HOME .frame-2 {
+    max-width: 320px;      /* было 100% — больше не растягивается */
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  .HOME .text-wrapper-3 {
+    font-size: 32px;       /* было 52/40 — компактнее */
+    white-space: normal;
+  }
+
+  .HOME .text-wrapper-4 {
+    font-size: 20px;
+  }
+
+  .HOME .i-am-a-UI-UX {
+    font-size: 13px;
+    line-height: 1.25;
+  }
+
+  /* ---------- About / Portfolio ---------- */
+  .div-2 {
+    padding: 30px 12px;    /* было 80/40 → 30/12 */
+    gap: 24px;
+  }
+
+  .div-2 .photo,
+  #portfolio .photo-2 {
+    width: 100%;
+    max-width: 340px;      /* не растягиваем на всю ширину */
+    height: auto;
+    aspect-ratio: 3 / 4;
+    margin: 0 auto;        /* центрируем */
+    order: 0 !important;
+  }
+
+  #portfolio .frame-wrapper {
+    order: 0 !important;
+  }
+
+  .div-2 .text-wrapper-5 { font-size: 18px; }
+  .div-2 .text-wrapper-6 { font-size: 24px; }
+  .div-2 .text-wrapper-7 { font-size: 18px; margin-top: 12px; }
+
+  .div-2 .p,
+  .skills-list li {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .skills-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  #portfolio .text-wrapper-13 { font-size: 24px; }
+  #portfolio .figma { font-size: 14px; line-height: 1.45; }
+
+  #portfolio .button {
+    font-size: 15px;
+    padding: 10px 20px;
+    align-self: stretch;
+    justify-content: center;
+  }
+
+  /* ---------- PHOTOS (галерея) ---------- */
+  .PHOTOS {
+    padding: 30px 12px;
+  }
+
+  .PHOTOS .group-9 { gap: 24px; }
+
+  .PHOTOS .group-11 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;              /* было 12 — плотнее */
+  }
+
+  .PHOTOS .group-11 img {
+    height: auto;
+    aspect-ratio: 3 / 4;   /* меньше по высоте */
+    border-radius: 14px;
+  }
+
+  /* Переставляем порядок: широкая .frame-10 — 5-й по счёту,
+     затем две одиночные .frame-9 и .CASIO */
+  .PHOTOS .group-11 .frame-7   { order: 1; }
+  .PHOTOS .group-11 .dtytiui   { order: 2; }
+  .PHOTOS .group-11 .dtytiui-2 { order: 3; }
+  .PHOTOS .group-11 .frame-8   { order: 4; }
+  .PHOTOS .group-11 .frame-10  { order: 5; }
+  .PHOTOS .group-11 .frame-9   { order: 6; }
+  .PHOTOS .group-11 .CASIO     { order: 7; }
+
+  /* Широкая — на всю ширину, но ниже по высоте */
+  .PHOTOS .group-11 .frame-10 {
+    grid-column: span 2;
+    aspect-ratio: 2 / 1;
+  }
+
+  .PHOTOS .frame-6 {
+    gap: 20px;
+  }
+
+  .PHOTOS .text-wrapper-15 { font-size: 18px; }
+  .PHOTOS .text-wrapper-16 { font-size: 13px; }
+
+  .PHOTOS .figma-afterskin-sg {
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.45;
+  }
+
+  /* ---------- PHOTOS-FIELD ---------- */
+  .PHOTOS-FIELD {
+    padding: 30px 12px;
+  }
+
+  .PHOTOS-FIELD .frame-11 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "text"
+      "photos";
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .PHOTOS-FIELD .text-wrapper-17 { font-size: 18px; }
+  .PHOTOS-FIELD .text-wrapper-18 { font-size: 14px; line-height: 1.45; }
+  .PHOTOS-FIELD .text-wrapper-19 { font-size: 24px; }
+
+  .PHOTOS-FIELD .frame-13 {
+    justify-self: center;
+    max-width: 100%;
+  }
+
+  .PHOTOS-FIELD .group-12 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    justify-self: center;
+  }
+
+  .PHOTOS-FIELD .group-12 .photo-3,
+  .PHOTOS-FIELD .group-12 .photo-4 {
+    width: calc(50% - 5px);
+    max-width: 180px;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    border-radius: 14px;
+  }
+
+  .PHOTOS-FIELD .group-12 .photo-4 {
+    margin-top: 0;
+  }
+
+  /* ---------- BREST ---------- */
+  .BREST .home-page {
+    height: 400px;         /* было 500 — компактнее */
+  }
+
+  .BREST .text-wrapper-23 {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+
+  .BREST .text-wrapper-24 {
+    left: 16px;
+    bottom: 16px;
+    font-size: 20px;
+  }
+
+  .BREST .text-wrapper-20,
+  .BREST .text-wrapper-21,
+  .BREST .text-wrapper-22 {
+    display: none;
+  }
+
+  .BREST .description {
+    padding: 30px 12px;
+    gap: 24px;
+  }
+
+  .BREST .text-wrapper-25 { font-size: 18px; }
+
+  .BREST .frame-17 {
+    flex-wrap: wrap;
+    min-height: 0;
+    padding-bottom: 0;
+    gap: 10px;
+  }
+
+  .BREST .frame-18,
+  .BREST .frame-19,
+  .BREST .frame-20,
+  .BREST .frame-21,
+  .BREST .frame-22 {
+    margin-top: 0 !important;
+  }
+
+  .BREST .photo-6 {
+    width: 100px;
+    height: 150px;
+    border-radius: 12px;
+  }
+
+  .BREST .text-wrapper-26 {
+    font-size: 32px;
+  }
+
+  .BREST .element-XVIII {
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .BREST .photo-5 {
+    height: 320px;         /* было 400 — компактнее */
+  }
+
+  /* ---------- MOGILEV ---------- */
+  .MOGILEV {
+    padding: 30px 12px;
+    gap: 24px;
+  }
+
+  .MOGILEV .text-wrapper-25 { font-size: 18px; }
+
+  .MOGILEV .frame-23 {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .MOGILEV .group-13 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    order: 1;
+  }
+
+  .MOGILEV .group-13 .photo-3,
+  .MOGILEV .group-13 .photo-4 {
+    width: calc(50% - 5px);
+    max-width: 160px;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    border-radius: 14px;
+  }
+
+  .MOGILEV .group-13 .photo-4 {
+    margin-top: 0;
+  }
+
+  .MOGILEV .frame-24 {
+    order: 2;
+    gap: 12px;
+  }
+
+  .MOGILEV .text-wrapper-13 { font-size: 24px; }
+  .MOGILEV .text-wrapper-27 { font-size: 14px; line-height: 1.45; }
+
+  /* ---------- FOOTER ---------- */
+  .FOOTER {
+    height: 64px;
+  }
+
+  .FOOTER .text-wrapper-33 {
+    font-size: 20px;
+  }
+}
+
+/* ========== Телефоны (≤ 600px) ========== */
+@media (max-width: 600px) {
+  .PHOTOS .frame-6 {
+    gap: 12px;
+  }
+
+  .skills-list {
+    gap: 6px;
+  }
+
+  .div-2 .photo,
+  #portfolio .photo-2 {
+    max-width: 280px;
+    aspect-ratio: 1 / 1;   /* квадрат — компактнее */
+  }
+
+  .BREST .home-page {
+    height: 320px;
+  }
+
+  .BREST .photo-5 {
+    height: 240px;
+  }
+
+  .BREST .photo-6 {
+    width: 88px;
+    height: 130px;
+  }
+
+  .BREST .text-wrapper-26 {
+    font-size: 26px;
+  }
+}
+
+/* ========== Очень узкие экраны (≤ 380px) ========== */
+@media (max-width: 380px) {
+  .HOME .frame-2 {
+    max-width: 280px;
+    padding: 16px 12px;
+  }
+
+  .HOME .text-wrapper-3 { font-size: 28px; }
+  .HOME .text-wrapper-4 { font-size: 18px; }
+
+  .div-2 .text-wrapper-5,
+  .BREST .text-wrapper-25,
+  .MOGILEV .text-wrapper-25 { font-size: 16px; }
+
+  .BREST .text-wrapper-23 { font-size: 28px; }
+
+  .PHOTOS .text-wrapper-15,
+  .PHOTOS-FIELD .text-wrapper-17 { font-size: 16px; }
+
+  #portfolio .text-wrapper-13,
+  .PHOTOS-FIELD .text-wrapper-19,
+  .MOGILEV .text-wrapper-13 { font-size: 20px; }
+}

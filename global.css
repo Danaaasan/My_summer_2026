@@ -1,0 +1,42 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:wght@400;600;700&family=Irish+Grover&family=Island+Moments&family=Inter:wght@400&family=Caveat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:wght@400;600;700&family=Irish+Grover&family=Island+Moments&family=Inter:wght@400&family=Caveat:wght@400;700&family=Pacifico&display=swap");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 3px;
+}

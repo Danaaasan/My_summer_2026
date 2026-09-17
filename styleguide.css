@@ -1,0 +1,17 @@
+:root {
+  --yellow: #ffb700;
+  --black: #000000;
+  --white: #ffffff;
+
+  --h-1-font-family: "Poppins", Helvetica, sans-serif;
+  --h-1-font-weight: 700;
+  --h-1-font-size: 24px;
+
+  --h-2-font-family: "Poppins", Helvetica, sans-serif;
+  --h-2-font-weight: 600;
+  --h-2-font-size: 16px;
+
+  --body-font-family: "Inter", Helvetica, sans-serif;
+  --body-font-weight: 400;
+  --body-font-size: 16px;
+}
