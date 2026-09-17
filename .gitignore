@@ -1,0 +1,21 @@
+# Зависимости
+node_modules/
+
+# Сборка
+bin/
+obj/
+dist/
+build/
+
+# Переменные окружения
+.env
+.env.local
+
+# Кэш и системные файлы
+.DS_Store
+Thumbs.db
+
+# Редакторы
+.vscode/
+.idea/
+*.log
