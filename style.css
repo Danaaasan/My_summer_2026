@@ -1086,12 +1086,18 @@
   .MOGILEV .text-wrapper-13 { font-size: 20px; }
 }
 
+<<<<<<< HEAD
 /* ========== ТЁМНАЯ ШАПКА (для конфликта в main) ========== */
 .site-header-dark {
+=======
+/* ========== SITE HEADER ========== */
+.site-header {
+>>>>>>> feature/header
   position: sticky;
   top: 0;
   z-index: 100;
   width: 100%;
+<<<<<<< HEAD
   background-color: #000;
   padding: 20px 24px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
@@ -1106,10 +1112,43 @@
   letter-spacing: 2px;
   margin: 0;
   line-height: 1.2;
+=======
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid var(--yellow);
+  padding: 16px 24px;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-nav a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #000;
+  text-decoration: none;
+  padding: 6px 2px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.site-nav a:hover {
+  color: var(--yellow);
+  border-bottom-color: var(--yellow);
+>>>>>>> feature/header
 }
 
 /* Мобильная версия */
 @media (max-width: 900px) {
+<<<<<<< HEAD
   .site-header-dark {
     padding: 14px 16px;
   }
@@ -1125,4 +1164,16 @@
     font-size: 14px;
     letter-spacing: 0.5px;
   }
+=======
+  .site-header {
+    padding: 12px 16px;
+  }
+  .site-nav {
+    gap: 20px;
+  }
+  .site-nav a {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+>>>>>>> feature/header
 }
