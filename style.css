@@ -1085,3 +1085,44 @@
   .PHOTOS-FIELD .text-wrapper-19,
   .MOGILEV .text-wrapper-13 { font-size: 20px; }
 }
+
+/* ========== ТЁМНАЯ ШАПКА (для конфликта в main) ========== */
+.site-header-dark {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #000;
+  padding: 20px 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.site-header-dark h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--yellow);
+  letter-spacing: 2px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Мобильная версия */
+@media (max-width: 900px) {
+  .site-header-dark {
+    padding: 14px 16px;
+  }
+
+  .site-header-dark h1 {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-header-dark h1 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+}
